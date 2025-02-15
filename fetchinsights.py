@@ -162,7 +162,7 @@ def handle_get_insights_request(search_term):
 
         # Step 3: Call the DeepSeek R1 API
         deepseek_api_url = "https://api.deepseek.com/v1/chat/completions"
-        deepseek_api_key = "sk-842d8bfe14634b30b03a1e5ee4899054"
+        
         if not deepseek_api_key:
             return {"error": "DeepSeek API key is missing. Please configure it as an environment variable."}
 
